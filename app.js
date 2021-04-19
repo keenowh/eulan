@@ -9,6 +9,7 @@ button.addEventListener("click", (event) => {
    }
 
    if (state == 1) {
+      document.getElementById("cont").classList.remove("h-full");
       guide = document.getElementById("content").innerHTML;
       document.getElementById(
          "content"
@@ -24,6 +25,7 @@ button.addEventListener("click", (event) => {
       document.getElementById("content").classList.add("bg-gray-900");
       document.getElementById("showButton").innerHTML = "Hide Message";
    } else {
+      document.getElementById("cont").classList.add("h-full");
       document
          .getElementById("content")
          .classList.add(

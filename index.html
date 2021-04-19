@@ -10,18 +10,21 @@
          rel="stylesheet"
       />
    </head>
-   <body>
-      <main class="absolute w-full h-full bg-gray-200">
-         <section class="container h-full px-4 mx-auto">
+   <body class="w-screen h-auto bg-gray-200">
+      <main class="absolute w-screen h-full">
+         <section class="container h-full px-4 py-10 mx-auto">
             <div
-               class="flex flex-col content-center items-center justify-center h-full"
+               id="cont"
+               class="flex flex-col content-center items-center justify-center h-full mb-6"
             >
-               <div class="sm:w-3/4 lg:w-6/12 px-4">
+               <div class="sm:w-3/4 lg:w-6/12 py-10 px-4">
                   <div
                      id="content"
-                     class="relative px-4 text-center py-10 flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 border-0"
+                     class="relative px-4 text-center py-8 flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 border-0"
                   >
-                     <h1 class="text-7xl text-white font-sans font-extrabold">
+                     <h1
+                        class="lg:text-7xl text-4xl text-white font-sans font-extrabold"
+                     >
                         HAPPY BIRTHDAY EULAN
                      </h1>
                   </div>
@@ -29,7 +32,7 @@
                <div>
                   <button
                      id="showButton"
-                     class="bg-gray-900 hover:bg-gray-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
+                     class="bg-gray-900 mb-10 hover:bg-gray-700 text-white text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200"
                   >
                      Show Message
                   </button>
